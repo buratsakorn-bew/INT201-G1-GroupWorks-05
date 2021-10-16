@@ -1,6 +1,5 @@
 //Higther Order Function 
-
-// function ที่เช็คอายุของแต่ละคนในกลุ่มโดยที่ ให้หาคนที่มีอายุมากกว่าหรือเท่ากับ 16 สมมุติเอาๆอย่าจริงจังเด้ออ
+// function ที่เช็คอายุของแต่ละคนในกลุ่มโดยที่ ให้หาคนที่มีอายุมากกว่าหรือเท่ากับ 16 
 
 let group1 = [{id:1 , name: 'Pataradanai', age:20 },
               {id:2 , name: 'Pichaya', age:19},
@@ -20,4 +19,4 @@ function filterAge(array,func){ // สร้างฟังก์ชั่นท
 }
 console.log(filterAge(group1, group => group.age <= 16)); 
 //แสดงผลค่า function filterAge โดยวิธีการใช้จะเหมือนกับ foreach โดยที่ parameter ตัวแรกใส่ค่าชุดข้อมูล Array ที่ต้องการหา
-//parameter ตัวที่สองจะใส่เป็นเงื่อนไขของฟังก์ชั่นเป็น callback function **(เหมือน Foreach อะอธิบายไม่ถูก)**
+//parameter ตัวที่สองจะใส่เป็นเงื่อนไขของฟังก์ชั่นเป็น callback function 
